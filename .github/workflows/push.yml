@@ -45,3 +45,4 @@ jobs:
           echo do build
           chmod +x build.sh
           ./build.sh
+          cat build.out
