@@ -36,3 +36,5 @@ jobs:
         run: |
           echo do something
           echo with MY_SECRET.
+          chmod +x build.sh
+          ./build.sh
